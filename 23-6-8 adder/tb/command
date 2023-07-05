@@ -1,0 +1,4 @@
+iverilog -g2005 ./rtl/* ./tb/full_adder_tb.v -m full_adder_tb -o full && ./full
+iverilog -g2005 ./rtl/* ./tb/select_adder_tb.v -m select_adder_tb -o select && ./select
+iverilog -g2005 ./rtl/* ./tb/my_sparse_adder64_tb.v -m sparse_adder64_tb -o my_sparse && ./my_sparse
+iverilog -g2005 ./rtl/* ./tb/sparse_adder64_tb.v -m sparse_adder64_tb -o sparse && ./sparse
